@@ -32,6 +32,14 @@ h3 {
 	font-family: 'Passion One', cursive;
 }
 
+h4 {
+	font-size: 32px;;
+	color: #1397d5;
+	margin-bottom: 16px;
+	margin-top: 0;
+	font-family: 'Passion One', cursive;
+}
+
 p {
 	color: #b3aeb5;
 	line-height: 1.7;
@@ -265,6 +273,23 @@ hr {
 	text-align: center;
 }
 
+/* footer
+================================= */
+.footer-link {
+	color: #1397d5;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
+
+.copyright-link {
+	color: #1397d5;
+}
+
+.copyright-link:hover {
+  text-decoration: none;
+}
 
 /* Jumbotron
 ================================= */
