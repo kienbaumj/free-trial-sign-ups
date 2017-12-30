@@ -122,6 +122,10 @@ strong {
 	border: none;
 }
 
+.list-group {
+	padding-bottom: 50px;
+}
+
 /* Links
 ================================= */
 
@@ -131,6 +135,14 @@ strong {
 .link-list .heading {
 	font-weight: bold;
 	margin-bottom: 10px;
+}
+
+.category-link {
+	color: #1397d5;
+}
+
+.category-link:hover {
+  text-decoration: none;
 }
 
 /* Layout
@@ -272,6 +284,38 @@ hr {
 .contain-newsletter {
 	text-align: center;
 }
+
+/* Email Sign Up 2
+================================= */
+#mailchimp {
+	background: #fff;
+	color: #3D6392;
+}
+
+	#mailchimp input {
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    width: 300px;
+	}
+
+		#mailchimp input.email { background: #fff }
+		#mailchimp input.name { background: #fff}
+		#mailchimp input[type="submit"] {
+
+			color: #fff;
+			background-color: #ff3b3f;
+			border-color: #ff3b3f;
+			box-shadow: 0 3px 0 #ff3b3f;
+			text-shadow: 0 1px 1px rgba(0,0,0,.3);
+			font-size: 1.5em;
+			cursor: pointer;
+			width: 35%;
+			padding: 8px 0;
+			border-radius: 5px;
+
+		}
+			#mailchimp input[type="submit"]:hover { background-color: #d71509 }
+
 
 /* footer
 ================================= */
